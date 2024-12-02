@@ -8,7 +8,7 @@ class Movie : public Media { // child function
 public:
     Movie(); 
     Movie(char* director, int duration, int rating, char* title, int year);  // Parameterized constructor
-    ~Movie();  // destructor 
+    virtual ~Movie();  // destructor 
     
     //defining variables used by chil d
 

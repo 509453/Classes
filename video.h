@@ -7,7 +7,7 @@ class Video : public Media{// declaring video as child of media
     public:
     Video(); 
      Video( int rating, char* publisher, char* title, int year);  // Parameterized constructor
-    ~Video(); //destructor
+   virtual ~Video(); //destructor
     //declaration of variables 
     int rating;
     char* publisher; 

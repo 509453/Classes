@@ -7,7 +7,7 @@ class Music : public Media{
     public:
     Music();
      Music(char* artist, int duration, char* publisher, char* title, int year);  // Parameterized constructor
-    ~Music();  // destructor
+    virtual ~Music();  // destructor
     
     //defining variables
      char* artist;
