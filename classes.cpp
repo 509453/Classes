@@ -163,7 +163,7 @@ cout<<"Enter title:"<<endl;
 	 cin.ignore();
 	 if (confirmDelete == 'y'){
 	   delete MediaDataBase[i];
-	   MediaDataBase.erase(MediaDataBase.begin()+1);
+	   MediaDataBase.erase(MediaDataBase.begin()+i);
 	   break;
 	 }else if (confirmDelete == 'n'){
 	   cout<<"Deletion is cancelled"<<endl;
